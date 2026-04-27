@@ -1,9 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Додайте цей рядок
-  images: {
-    unoptimized: true, // Потрібно для статичного експорту, якщо використовуєте <Image />
-  },
+  output: "standalone",
 };
-
-export default nextConfig;
+module.exports = nextConfig;
