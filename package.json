@@ -6,8 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "lint .",
-    "test:ci": "jest --ci --coverage --watchAll=false"
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:ci": "vitest run"
   },
   "dependencies": {
     "next": "16.2.4",
